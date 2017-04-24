@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  
+   <servlet>
+    <description>后台所用操作</description>
+    <display-name>管理员</display-name>
+    <servlet-name>adminAction</servlet-name>
+    <servlet-class>action.adminAction</servlet-class>
+  </servlet>
+    <servlet>
+    <description>教师端所有操作</description>
+    <display-name>教师端</display-name>
+    <servlet-name>teacher</servlet-name>
+    <servlet-class>action.teacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>后台成绩查询</description>
+    <display-name>后台成绩查询</display-name>
+    <servlet-name>gradeSelect</servlet-name>
+    <servlet-class>action.gradeSelect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>后台管理员登录</description>
+    <display-name>后台管理员登录</display-name>
+    <servlet-name>adminLogin</servlet-name>
+    <servlet-class>action.adminLogin</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  <servlet>
+    <description>用户列表显示</description>
+    <display-name>用户表</display-name>
+    <servlet-name>UserList</servlet-name>
+    <servlet-class>action.UserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>登录验证</description>
+    <display-name>学生表</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>action.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>考试考试确认信息</description>
+    <display-name>学生信息表</display-name>
+    <servlet-name>Exam_start</servlet-name>
+    <servlet-class>action.Exam_start</servlet-class>
+  </servlet>
+  <servlet>
+    <description>考试</description>
+    <display-name>试卷表</display-name>
+    <servlet-name>Exam_begin</servlet-name>
+    <servlet-class>action.Exam_begin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>答题</description>
+    <display-name>学生答题</display-name>
+    <servlet-name>Exam_answer</servlet-name>
+    <servlet-class>action.Exam_answer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>答题多选题处理</description>
+    <display-name>答题</display-name>
+    <servlet-name>Exam_answerMchoice</servlet-name>
+    <servlet-class>action.Exam_answerMchoice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>成绩查询</description>
+    <display-name>成绩</display-name>
+    <servlet-name>Exam_Query</servlet-name>
+    <servlet-class>action.Exam_Query</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>adminAction</servlet-name>
+    <url-pattern>/adminAction</url-pattern>
+  </servlet-mapping>	
+  
+
+  <servlet-mapping>
+    <servlet-name>teacher</servlet-name>
+    <url-pattern>/teacherAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gradeSelect</servlet-name>
+    <url-pattern>/gradeSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminLogin</servlet-name>
+    <url-pattern>/adminLogin.html</url-pattern>
+  </servlet-mapping>	
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserList</servlet-name>
+    <url-pattern>/UserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exam_start</servlet-name>
+    <url-pattern>/Exam_start</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exam_begin</servlet-name>
+    <url-pattern>/Exam_begin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exam_answer</servlet-name>
+    <url-pattern>/Exam_answer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exam_answerMchoice</servlet-name>
+    <url-pattern>/Exam_answerMchoice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exam_Query</servlet-name>
+    <url-pattern>/Exam_Query</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

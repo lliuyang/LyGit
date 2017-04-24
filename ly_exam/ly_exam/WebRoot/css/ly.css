@@ -1,0 +1,24 @@
+.mt-5{margin-top: 5px;}
+.mt-20{margin-top: 20px;}
+.paper_title{
+	height: 130px;
+	line-height: 130px;
+}
+.wrap{
+	margin: 0 auto;
+}
+.paper_title .stitle{
+	display: table;
+}
+.paper_title .stitle h2{
+	font-weight: bolder;
+}
+.stitle .title_about{
+	display: table;
+}
+.en-btn{
+	display:bolck;
+	border:1px solid #666;
+	width:50px;
+	height:30px;
+}

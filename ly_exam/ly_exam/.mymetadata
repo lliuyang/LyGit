@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ly_exam"
+  id="myeclipse.1491744816161"
+  context-root="/ly_exam"
+  j2ee-spec="5.0"
+  archive="ly_exam.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

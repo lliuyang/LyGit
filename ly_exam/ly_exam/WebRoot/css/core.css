@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*中间白色部分 begin*/
+.outmain{
+	padding-bottom: 50px;
+	background-color: #fff;
+}
+/*中间白色部分 end*/
+
+/*新增考务系统nav begin*/
+
+
+
+.navheader{
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.nav-title{
+		margin-left: 10px;
+	}
+}
+/*footer end*/
+
+
+
+.message-top{
+	float: right;
+}
+.maessage-down{
+	float: right;
+	list-style: none;
+}
+
+.validate_input{
+	position: absolute;
+	right: 45px;
+	top: 15px;
+	z-index: 9;
+	color: #ff2600;
+	display: none;
+}
