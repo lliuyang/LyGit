@@ -1,7 +1,7 @@
-¹ÜÀíÔ±¶Ë£ºhttp://localhost:8080/ly_exam/adminAction ²âÊÔÕËºÅ£ºadmin ÃÜÂë£º888
+ç®¡ç†å‘˜ç«¯ï¼šhttp://localhost:8080/ly_exam/adminAction æµ‹è¯•è´¦å·ï¼šadmin å¯†ç ï¼š888
 
-½ÌÊ¦ http://localhost:8080/ly_exam/teacherAction ²âÊÔÕËºÅ:teacher ÃÜÂë£º888
+æ•™å¸ˆç«¯ï¼š http://localhost:8080/ly_exam/teacherAction æµ‹è¯•è´¦å·:teacher å¯†ç ï¼š888
 
-Ñ§Éú¶Ë£ºhttp://localhost:8080/ly_exam/ ²âÊÔÕËºÅ£º2014010 ÃÜÂë£º3959
+å­¦ç”Ÿç«¯ï¼šhttp://localhost:8080/ly_exam/ æµ‹è¯•è´¦å·ï¼š2014010 å¯†ç ï¼š3959
 
-Êı¾İ¿â£ºÓÃ»§Ãû£ºroot ÃÜÂë£º¿Õ
+æ•°æ®åº“ï¼šç”¨æˆ·åï¼šroot å¯†ç ï¼šç©º
